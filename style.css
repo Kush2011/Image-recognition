@@ -1,0 +1,16 @@
+.fun-bold{
+    color: yellow;
+}
+body{
+    color: white;
+    background-color: red;
+}
+.heading{
+    width: 80%;
+    font-size: 20px;
+}
+#camera{
+    height: 400px;
+    width: 400px;
+    border: 2px dashed pink ;
+}

@@ -1,0 +1,62 @@
+ 
+<html>
+  <head>
+    <title>Image recognition</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+   <link rel="stylesheet" href="style.css">
+  
+  </head>
+
+  <body>
+  <div class="container">
+    
+    <center>
+      <h3 class="btn btn-default heading">Image recognition</h3>
+      <br><br>
+      
+      <p style="font-size: 22px;">Model is trained to identify the following objects: </p>
+      <b class="fun-bold">
+        Watch
+        <hr>
+        Water bottle
+        <hr>
+        Ink box
+        <hr>
+        book
+        <hr>
+        sharpner
+        <hr>
+        eraser/rubber
+        <hr>
+        yo yo
+        <hr>
+        remote
+        <hr>
+      </b>
+      <label>Webcam View - </label>
+      <div id="camera"></div>
+      <br><br>
+      <div id="result"></div>
+      <br><br>
+      <button id="capture_with_fun" class="btn btn-info" onclick="take_snapshot()">Capture image</button>
+      <br><br>
+      <button id="result_with_fun" class="btn btn-success" onclick="result_of_app()"> Result of image</button>
+      <br><br>
+
+      <p style="font-size: 22px; color: yellow">Object : <span id="Object"></span>  </p>
+      <p style="font-size: 22px; color: yellow">Accuracy : <span id="Accuracy"></span>  </p>
+    </center>
+
+  </div>
+<script src="main.js"></script>
+
+  </body>
+</html>
+
+ 
